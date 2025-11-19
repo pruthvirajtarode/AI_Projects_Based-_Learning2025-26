@@ -1,0 +1,16 @@
+{
+  "name": "mario-shooter-capacitor",
+  "version": "1.0.0",
+  "description": "Mario Shooter - Capacitor-ready web app. Place www files and run capacitor commands.",
+  "scripts": {
+    "build": "echo \"No build step required for plain HTML/JS. Ensure www/ contains index.html and assets.\"",
+    "cap:init": "npx cap init com.yourcompany.marioshooter \"Mario Shooter\" --web-dir=www"
+  },
+  "author": "Pruthviraj",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/android": "^5.7.8",
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/core": "^5.0.0"
+  }
+}

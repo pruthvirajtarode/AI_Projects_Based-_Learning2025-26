@@ -1,0 +1,8 @@
+{
+  "name": "Mario Shooter",
+  "short_name": "MarioShooter",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "description": "A simple offline HTML5 Mario shooter game packaged with Capacitor."
+}

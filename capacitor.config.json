@@ -1,0 +1,6 @@
+{
+  "appId": "com.yourcompany.marioshooter",
+  "appName": "Mario Shooter",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
