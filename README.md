@@ -1,12 +1,31 @@
+# Romania Map Route Finding using Prolog
 
-# Mario Shooter — Capacitor-ready package
+A GUI-based visual implementation of search algorithms (BFS, DFS, Greedy, A*) on the Romania map using SWI‑Prolog.
 
-What's included:
-- `www/` — your game's HTML/JS/CSS/assets (copied from your uploaded ZIP)
-- `package.json` — minimal npm config with Capacitor devDeps
-- `capacitor.config.json` — Capacitor config (appId/appName/webDir)
-- `setup.sh` — convenience script to run initial commands on a machine with Node & Android Studio installed
-- `README.md` — this file with detailed instructions
+## 🚀 Features
+- Romania map with coordinates and distances  
+- BFS, DFS, Greedy, A* implementations  
+- GUI using XPCE  
+- Path cost + expanded nodes  
+- Animated car movement  
+- Optional expansion visualization  
 
-Important: This ZIP does **not** contain `node_modules` or the Android native project (these must be created on your machine).
-I prepared this to be **Capacitor-ready** — after extracting, run the commands below on your computer to create the Android project and build a signed AAB for Play Store.
+## 🖥️ Run Instructions
+1. Install SWI‑Prolog  
+2. Load the file:  
+   ```
+   ?- ['F:/romania_game_gui'].
+   ```
+3. Start GUI:  
+   ```
+   ?- start_menu.
+   ```
+
+## 📷 Sample Outputs
+Examples from execution:  
+- Arad → Bucharest (Cost: 450)  
+- Oradea → Sibiu (Cost: 151)  
+- Timisoara → Sibiu (Cost: 258)
+
+## 📜 License
+For educational use.
